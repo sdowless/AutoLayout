@@ -15,7 +15,7 @@ class ViewController: UICollectionViewController {
     
     // MARK: - Properties
     
-    let images: [UIImage] = [#imageLiteral(resourceName: "venom-6"), #imageLiteral(resourceName: "venom-1"), #imageLiteral(resourceName: "venom-3"), #imageLiteral(resourceName: "venom-1"), #imageLiteral(resourceName: "venom-4"), #imageLiteral(resourceName: "carnage"), #imageLiteral(resourceName: "venom-4"), #imageLiteral(resourceName: "venom"), #imageLiteral(resourceName: "venom02"), #imageLiteral(resourceName: "venom-7"), #imageLiteral(resourceName: "venom-10"), #imageLiteral(resourceName: "venom-8")]
+    let images: [UIImage] = [#imageLiteral(resourceName: "venom-6"), #imageLiteral(resourceName: "venom-1"), #imageLiteral(resourceName: "venom-3"), #imageLiteral(resourceName: "venom-1"), #imageLiteral(resourceName: "venom-4"), #imageLiteral(resourceName: "carnage"), #imageLiteral(resourceName: "venom-4"), #imageLiteral(resourceName: "venom"), #imageLiteral(resourceName: "venom02"), #imageLiteral(resourceName: "venom-7"), #imageLiteral(resourceName: "venom-10"), #imageLiteral(resourceName: "venom-8"), #imageLiteral(resourceName: "venom-6"), #imageLiteral(resourceName: "carnage-2"), #imageLiteral(resourceName: "venom-4")]
     
     // MARK: - Lifecycle
     
@@ -72,5 +72,4 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
         let width = (view.frame.width - 2) / 3
         return CGSize(width: width, height: width)
     }
-    
 }
